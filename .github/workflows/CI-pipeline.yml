@@ -28,4 +28,4 @@ jobs:
         run: mvn clean package -DskipTests
 
       - name: Build Docker image
-        run: docker -t todo-spring-boot .
+        run: docker build -t todo-spring-boot .
