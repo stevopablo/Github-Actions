@@ -1,0 +1,27 @@
+# Diretórios de build
+target/
+build/
+
+# Configurações de IDE
+.idea/
+.vscode/
+*.iml
+*.classpath
+*.project
+*.settings/
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.bak
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
