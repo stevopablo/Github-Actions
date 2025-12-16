@@ -26,3 +26,6 @@ jobs:
 
       - name: Gerar JAR
         run: mvn clean package -DskipTests
+
+      - name: Build Docker image
+        run: docker -t todo-spring-boot .
